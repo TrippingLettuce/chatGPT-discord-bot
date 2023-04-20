@@ -6,6 +6,7 @@ from src.aclient import client
 from discord import app_commands
 from src import log, art, personas, responses
 
+
 logger = log.setup_logger(__name__)
 
 def run_discord_bot():
